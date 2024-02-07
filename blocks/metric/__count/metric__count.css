@@ -1,0 +1,10 @@
+.metric__count {
+  font-size: 40px;
+  font-weight: 600;
+}
+.metric__count_yellow {
+  color: #FFE642;
+}
+.metric__count_red {
+  color: #FB1351;
+}

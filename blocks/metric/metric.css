@@ -1,0 +1,11 @@
+.metric {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 166px;
+  height: 98px;
+  border-radius: 20px;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

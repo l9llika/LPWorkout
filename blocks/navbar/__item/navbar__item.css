@@ -1,0 +1,7 @@
+.navbar__item {
+  margin-left: 10px;
+}
+.navbar__item:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}

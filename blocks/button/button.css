@@ -1,0 +1,17 @@
+.button {
+  width: 200px;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
+.button_main {
+  background-color: #25AB75;
+}
+.button_preview {
+  background-color: #202020;
+}
+.button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}

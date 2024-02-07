@@ -1,0 +1,10 @@
+.about__subject {
+  padding: 0 5px;
+  max-width: 329px;
+  height: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 200px;
+  background-color: #202020;
+}
