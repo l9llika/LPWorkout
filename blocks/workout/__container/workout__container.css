@@ -1,0 +1,60 @@
+.workout__container {
+  margin: 20px 0;
+}
+.workout__container .workout__body {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  height: 0;
+  color: #FFF;
+  line-height: 18px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  transition: color 0.5s, padding 0.5s;
+  overflow: hidden;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 10px 16px rgba(0,0,0,0.2);
+  border-top: 0.5px solid #808080;
+}
+.workout__container .workout__body p {
+  margin: 0 0 10px;
+}
+.workout__container label {
+  cursor: pointer;
+  display: block;
+  padding: 15px 20px;
+  width: 100%;
+  color: #FFF;
+  font-weight: 300;
+  box-sizing: border-box;
+  z-index: 100;
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  margin: 0 0 5px;
+  transition: color .35s;
+}
+.workout__container label:hover {
+  color: #FFF;
+}
+.workout__container input{
+  display: none;
+}
+.workout__container label:before {
+  content: url(../../../images/arrow.svg);
+  float: right;
+  margin-top: 30px;
+}
+.workout__container input:checked + label {
+  color: #FFF;
+  box-shadow: 0 8px 26px rgba(0,0,0,0.4), 0 28px 30px rgba(0,0,0,0.3);
+}
+.workout__container input:checked + label:before {
+  transition: transform .35s;
+  transform: rotate(90deg);
+}
+.workout__container input:checked + label + .workout__body {
+  height: auto;
+  margin-top: -5px;
+  color: #FFF;
+  padding: 20px 30px 10px;
+}

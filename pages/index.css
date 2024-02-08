@@ -28,5 +28,41 @@
 @import url(../blocks/metric/__desc/metric__desc.css);
 /* button */
 @import url(../blocks/button/button.css);
+/* features */
+@import url(../blocks/features/features.css);
+@import url(../blocks/features/__grid/features__grid.css);
+@import url(../blocks/features/__link/features__link.css);
+@import url(../blocks/features/__row/features__row.css);
+@import url(../blocks/features/__title/features__title.css);
+/* ex-container */
+@import url(../blocks/ex-container/ex-container.css);
+@import url(../blocks/ex-container/__caption/ex-container__caption.css);
+@import url(../blocks/ex-container/__count/ex-container__count.css);
+@import url(../blocks/ex-container/__desc/ex-container__desc.css);
+@import url(../blocks/ex-container/__image/ex-container__image.css);
+@import url(../blocks/ex-container/__wrap/ex-container__wrap.css);
+/* promo */
+@import url(../blocks/promo/promo.css);
+@import url(../blocks/promo/__title/promo__title.css);
+@import url(../blocks/promo/__wrapper/promo__wrapper.css);
+@import url(../blocks/promo/__decoration/promo__decoration.css);
+@import url(../blocks/promo/__square/promo__square.css);
+@import url(../blocks/promo/__text/promo__text.css);
+@import url(../blocks/promo/__column/promo__column.css);
+@import url(../blocks/promo/__grid/promo__grid.css);
+@import url(../blocks/promo/__grid-item/promo__grid-item.css);
+@import url(../blocks/promo/__grid-name/promo__grid-name.css);
+@import url(../blocks/promo/__grid-text/promo__grid-text.css);
+/* workout */
+@import url(../blocks/workout/workout.css);
+@import url(../blocks/workout/__container/workout__container.css);
+@import url(../blocks/workout/__desc/workout__desc.css);
+@import url(../blocks/workout/__number/workout__number.css);
+@import url(../blocks/workout/__text-box/workout__text-box.css);
+@import url(../blocks/workout/__text/workout__text.css);
+@import url(../blocks/workout/__title/workout__title.css);
+@import url(../blocks/workout/__title/workout__title.css);
+@import url(../blocks/workout/__wrap/workout__wrap.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__mf-logo/footer__mf-logo.css);

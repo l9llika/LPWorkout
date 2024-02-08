@@ -1,0 +1,8 @@
+.ex-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  position: relative;
+  height: 296px;
+  border-radius: 20px;
+}

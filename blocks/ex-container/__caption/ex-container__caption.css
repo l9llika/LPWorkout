@@ -1,0 +1,9 @@
+.ex-container__caption {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  font-weight: 600;
+}
+.ex-container__caption:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,6 @@
+.promo__decoration {
+  position: absolute;
+  top: 380px;
+  left: 0px;
+  z-index: -1;
+}

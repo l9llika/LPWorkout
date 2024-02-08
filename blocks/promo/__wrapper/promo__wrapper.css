@@ -1,0 +1,5 @@
+.promo__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}

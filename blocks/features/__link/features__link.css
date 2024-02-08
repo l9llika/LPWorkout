@@ -1,0 +1,9 @@
+.features__link {
+  text-decoration: none;
+  color: #FFF;
+  opacity: 67%;
+}
+.features__link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}

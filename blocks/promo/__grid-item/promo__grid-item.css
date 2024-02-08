@@ -1,0 +1,14 @@
+.promo__grid-item {
+  display: flex;
+  flex-direction: column;
+
+}
+.promo__grid-item_one {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.promo__grid-item_two {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.promo__grid-item_three {
+  grid-area: 1 / 3 / 3 / 5;
+}

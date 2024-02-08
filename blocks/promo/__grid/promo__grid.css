@@ -1,0 +1,7 @@
+.promo__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 321px) 558px;
+  grid-template-rows: 193px repeat(2, 321px);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
