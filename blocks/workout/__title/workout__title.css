@@ -4,3 +4,9 @@
   font-size: 50px;
   font-weight: 400;
 }
+
+@media (max-width: 520px) {
+  .workout__title {
+    font-size: 36px;
+  }
+}

@@ -3,4 +3,5 @@
   margin: 0;
   padding: 50px 20px;
   max-width: 1200px;
+  overflow: hidden;
 }

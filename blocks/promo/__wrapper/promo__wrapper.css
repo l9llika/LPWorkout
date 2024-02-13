@@ -1,5 +1,12 @@
 .promo__wrapper {
+  margin-bottom: 20px;
   position: relative;
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 520px) {
+  .promo__wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
 }

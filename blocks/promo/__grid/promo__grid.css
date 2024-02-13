@@ -5,3 +5,23 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
+@media (max-width: 1200px) {
+  .promo__grid {
+    grid-template-columns: repeat(3, 321px);
+    grid-template-rows: repeat(2, 321px);
+  }
+}
+
+@media (max-width: 1000px) {
+  .promo__grid {
+    grid-template-columns: repeat(2, 321px);
+    grid-template-rows: repeat(3, 321px);
+  }
+}
+@media (max-width: 520px) {
+  .promo__grid {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+  }
+}

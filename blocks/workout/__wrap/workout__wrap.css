@@ -4,3 +4,9 @@
   gap: 250px;
   align-items: center;
 }
+@media (max-width: 1000px) {
+  .workout__wrap {
+    width: auto;
+    gap: 20px;
+  }
+}

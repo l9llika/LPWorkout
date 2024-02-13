@@ -4,3 +4,14 @@
   left: 0px;
   z-index: -1;
 }
+@media (max-width: 1000px) {
+  .promo__decoration {
+    top: 180px;
+    width: 350px;
+  }
+}
+@media (max-width: 520px) {
+  .promo__decoration {
+    width: 300px;
+  }
+}

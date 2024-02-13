@@ -2,9 +2,15 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 373px;
+  width: 100%;
   height: 250px;
-  border-radius: 20px;
   object-fit: cover;
   z-index: -1;
 }
+
+@media (max-width: 1200px) {
+  .ex-container__image {
+    border-radius: 10px;
+  }
+}
+

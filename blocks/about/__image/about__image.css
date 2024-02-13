@@ -1,6 +1,18 @@
 .about__image {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 0px;
+  top: -150px;
   z-index: -1;
+}
+@media (max-width: 780px) {
+  .about__image {
+    right: -250px;
+    width: 700px;
+  }
+}
+
+@media (max-width: 450px) {
+  .about__image {
+    display: none;
+  }
 }

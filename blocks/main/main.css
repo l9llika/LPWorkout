@@ -1,4 +1,10 @@
 .main {
+  position: relative;
   margin: auto;
   max-width: 1200px;
+}
+@media (max-width: 780px) {
+  .main {
+    overflow: hidden;
+  }
 }

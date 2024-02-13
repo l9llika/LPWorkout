@@ -6,3 +6,15 @@
   font-weight: 600;
   line-height: 120px;
 }
+@media (max-width: 1000px) {
+  .promo__title {
+    width: 250px;
+    font-size: 64px;
+    line-height: 64px;
+  }
+}
+@media (max-width: 520px) {
+  .promo__title {
+    width: 100%;
+  }
+}

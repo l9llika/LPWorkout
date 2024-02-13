@@ -1,9 +1,14 @@
 .features__link {
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
   opacity: 67%;
 }
 .features__link:hover {
   opacity: 0.6;
   cursor: pointer;
+}
+@media (max-width: 520px) {
+  .features__link {
+    font-size: 12px;
+  }
 }
